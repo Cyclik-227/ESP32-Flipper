@@ -161,9 +161,9 @@ Battery (+) ──── TP4056 B+
 Battery (−) ──── TP4056 B−
 TP4056 OUT+ ──── Rocker switch (middle pin)
 Rocker switch (far pin) ──┬── ME6211 IN
-                           └── Capacitor 1µF ──── GND
+                          └── Capacitor 1µF ──── GND
 ME6211 OUT ──┬── ESP32 3V3
-              └── Capacitor 1µF ──── GND
+             └── Capacitor 1µF ──── GND
 ME6211 GND ──── GND
 TP4056 OUT− ──── GND
 ```
@@ -277,8 +277,6 @@ Go to **RFID** in the menu. PN532 DIP switches must be set to I2C mode.
 - [x] WebUI accessible via WiFi
 - [ ] CC1101 433MHz — module on the way
 - [ ] PN532 NFC — module on the way
-- [ ] Case lid — in progress
-- [ ] IR database for AC/TV remotes
 - [ ] GitHub release with pre-built firmware
 
 ---
@@ -443,9 +441,9 @@ GPIO 33 ──── 1кОм ──── База BC547
 Батарея (−) ──── TP4056 B−
 TP4056 OUT+ ──── Средний пин кулисника
 Крайний пин кулисника ──┬── ME6211 IN
-                         └── Конденсатор 1мкФ ──── GND
+                        └── Конденсатор 1мкФ ──── GND
 ME6211 OUT ──┬── ESP32 3V3
-              └── Конденсатор 1мкФ ──── GND
+             └── Конденсатор 1мкФ ──── GND
 ME6211 GND ──── GND
 TP4056 OUT− ──── GND
 ```
@@ -559,6 +557,4 @@ board_upload.speed = 115200
 - [x] WebUI доступен по WiFi
 - [ ] CC1101 433МГц — жду модуль
 - [ ] PN532 NFC — жду модуль
-- [ ] Крышка корпуса — в разработке
-- [ ] База ИК сигналов для кондиционеров/телевизоров
 - [ ] Релиз с готовой прошивкой
