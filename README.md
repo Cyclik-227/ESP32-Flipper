@@ -11,8 +11,8 @@
 
 ## 📷 Result
 
-![ESP32-Flipper](photos/img1.png)
-![ESP32-Flipper](photos/img2.png)
+![ESP32-Flipper](photos/img1.jpg)
+![ESP32-Flipper](photos/img2.jpg)
 
 ---
 
@@ -291,8 +291,8 @@ Go to **RFID** in the menu. PN532 DIP switches must be set to I2C mode.
 
 ## 📷 Результат
 
-![ESP32-Flipper](photos/img1.png)
-![ESP32-Flipper](photos/img2.png)
+![ESP32-Flipper](photos/img1.jpg)
+![ESP32-Flipper](photos/img2.jpg)
 
 ---
 
